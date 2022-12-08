@@ -1,0 +1,178 @@
+/** FONTS **/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+/** RESETS **/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/** VARIABLES **/
+$primary-font: "PT Serif", serif;
+$secondary-font: "Poppins", sans-serif;
+$terciary-font: "Montserrat", serif;
+
+$font-weight-1: 400;
+$font-weight-2: 500;
+$font-weight-3: 600;
+$font-weight-4: 700;
+
+$grey-1: #a9a9a9;
+$black-1: #000;
+$white-1: #fff;
+
+$text-xs: 0.75rem; // 12
+$text-sm: 0.875rem; // 14
+$text-md: 1.125rem; // 18
+$text-lg: 2.25rem; // 36
+
+$space-sm: 0.5rem;
+$space-md: 1rem;
+$space-lg: 2rem;
+
+$rounded-sm: 8px;
+$rounded: 16px;
+
+$shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+
+.container {
+  max-width: 960px;
+  margin: 4rem auto 0;
+  padding: 0 1rem;
+}
+
+/** MAIN CODE **/
+
+/** HEADER **/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+
+  &__title {
+    font-family: $primary-font;
+    font-size: $text-lg;
+    font-weight: $font-weight-4;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    min-width: 290px;
+    align-self: flex-start;
+  }
+
+  &__box {
+    max-width: 440px;
+    margin-left: 10rem;
+  }
+
+  &__box_subtitle {
+    font-family: $secondary-font;
+    font-size: $text-md;
+    font-weight: $font-weight-3;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+
+  &__box-description {
+    font-family: $secondary-font;
+    font-size: $text-md;
+    font-weight: $font-weight-1;
+    line-height: 27px;
+  }
+}
+
+/** MAIN **/
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  padding: 2rem;
+  // border: 1px solid;
+
+  &:nth-of-type(3n + 2) {
+    margin-top: 4rem;
+  }
+
+  &__job {
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-weight: $font-weight-1;
+    font-size: $text-xs;
+    line-height: 16px;
+  }
+
+  &__name {
+    font-family: $secondary-font;
+    font-weight: $font-weight-3;
+    font-size: $text-md;
+    line-height: 27px;
+    text-transform: capitalize;
+  }
+}
+
+/** FOOTER **/
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: $grey-1;
+  font-family: $terciary-font;
+  font-weight: $font-weight-2;
+  font-size: $text-sm;
+  line-height: 17px;
+
+  &__username {
+    font-weight: $font-weight-4;
+  }
+}
+
+@media (max-width: 900px) {
+  .header__box {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__box {
+    margin-left: 0rem;
+  }
+
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card:nth-of-type(2n) {
+    margin-top: 4rem;
+  }
+
+  .card:nth-of-type(2n + 1) {
+    margin-top: -4rem;
+  }
+}
