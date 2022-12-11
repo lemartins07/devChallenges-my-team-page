@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/lemartins07/dc-404-Not-Found/blob/main/assets/img/404-not-found.jpg?raw=true)
+![screenshot](https://raw.githubusercontent.com/lemartins07/devChallenges-my-team-page/5d57fb8d68a15f17c2e27180e53142fb4cca3c17/assets/img/Screenshot_1.jpg)
 
 - You can see your <a href="https://myteampage-lemartins07.vercel.app/" target="_blank">demo here!</a>
 
