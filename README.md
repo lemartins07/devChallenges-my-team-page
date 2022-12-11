@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404 Not Found</h1>
+<h1 align="center">My Team Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://404notfound-lemartins07.vercel.app/">
+    <a href="https://myteampage-lemartins07.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/4FRt3zsajPS5vdJKHcRj">
+    <a href="https://devchallenges.io/solutions/tnPxaAWnnwjeoCyTnCW0">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
     </a>
   </h3>
@@ -38,7 +38,7 @@
 
 ![screenshot](https://github.com/lemartins07/dc-404-Not-Found/blob/main/assets/img/404-not-found.jpg?raw=true)
 
-- You can see your <a href="https://404notfound-lemartins07.vercel.app/" target="_blank">demo here!</a>
+- You can see your <a href="https://myteampage-lemartins07.vercel.app/" target="_blank">demo here!</a>
 
 
 ### Built With

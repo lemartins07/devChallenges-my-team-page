@@ -153,13 +153,20 @@ $shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
     line-height: 1.6rem;
     position: absolute;
     width: 100%;
-    left: 100%;
+    left: 95%;
     transform: rotate(90deg);
     transform-origin: 1.6rem 100%;
     @include maxWidth(800px) {
       left: 95%;
     }
-    @include maxWidth(400px) {
+    @include maxWidth(700px) {
+      left: 92%;
+    }
+    @include maxWidth(425px) {
+      left: 85%;
+      font-size: 10px;
+    }
+    @include maxWidth(380px) {
       left: 80%;
       font-size: 10px;
     }
